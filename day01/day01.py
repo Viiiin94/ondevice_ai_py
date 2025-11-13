@@ -105,3 +105,10 @@ s1 = set([1, 2, 3])
 # remove : 있으면 해당 숫자의 index를 찾아서 지워라
 
 # discard : 있으면 지우고 없으면 말아라
+
+# 불 자료형
+a = True
+b = False
+
+print(1 == '1')  # False
+print(a == True)  # True
