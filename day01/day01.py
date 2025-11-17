@@ -112,3 +112,4 @@ b = False
 
 print(1 == '1')  # False
 print(a == True)  # True
+c = ''
