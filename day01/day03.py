@@ -72,7 +72,6 @@ f.close()  # close가 없으면 파일이 생성되지 않음 / 파일은 생성
 with open("foo.txt", "w") as f:
     f.write("Life is too short, you need python")
 
-
 # 한글 파일 쓰기
 with open("한글파일.txt", "w", encoding="utf-8") as f:
     f.write("안녕하세요, 파이썬!")
@@ -81,3 +80,11 @@ with open("한글파일.txt", "w", encoding="utf-8") as f:
 with open("한글파일.txt", "r", encoding="utf-8") as f:
     content = f.read()
     print(content)
+
+a = input("두 수를 공백문자로 구분하여 입력하세요.")
+print(a.split())
+b = map(int, a.split())
+print(list(b))
+
+c = list(map(int, input("두 수를 입력하세요").split()))
+print(c[0] + c[1])
