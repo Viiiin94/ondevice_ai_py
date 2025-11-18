@@ -88,3 +88,5 @@ print(list(b))
 
 c = list(map(int, input("두 수를 입력하세요").split()))
 print(c[0] + c[1])
+
+print(sum(list(map(int, input("2개의 숫자를 입력하세요. : ").split()))))
